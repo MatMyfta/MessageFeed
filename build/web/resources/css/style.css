@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-Sep-2020, 16:39:41
+    Author     : acer
+*/
+body {
+    font-family: sans-serif;
+    font-size: 13pt;
+}
+
+input#send-message-input {
+    padding: 5px;
+    min-width: 250px;
+}
+input#send-message-btn {
+    border: 0;
+    background: #799dff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+p.status {
+    font-size: 11pt;
+}
+table#feed-table tr > * {
+    padding: 20px 30px;
+}
+table#feed-table tr th {
+    border-bottom: 5px solid #444;
+}
+table#feed-table tr td {
+    border-bottom: 1px solid #ddd;
+}
+
+.warning, .info {
+    padding: 20px;
+    border-radius: 5px;
+    text-shadow: 0 1px 1px #fff;
+    font-size: 13pt;
+    margin: 5px;
+}
+.info {
+    color: #2c4998;
+    background: #dde4f7;
+}
+
+th#e-title {
+    font-size: 25pt;
+    padding: 30px;
+}
+th#e-comment {
+    font-size: 16pt;
+    padding: 5px;
+    border-bottom: 5px solid #444;
+}
+#event tr td {
+    padding: 20px 30px;
+}
+#event tr td {
+    border-bottom: 1px solid #ddd;
+}
+#event span.warning {
+    background: #fffbd1;
+    color: af881a;
+}
+
+.highlight {
+    background-color: #fffce1;
+}
+
+#autorefresh {
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14pt;
+    padding: 8px;
+}
+#autorefresh-btn, #forget-btn {
+    border: 0;
+    padding: 9px 12px;
+    background: #799dff;
+    margin: 10px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+}
